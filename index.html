@@ -402,7 +402,7 @@
       
         
           
-            <p>文章原(链接)[<a href="https://www.zybuluo.com/hanbingtao/note/433855" target="_blank" rel="external">https://www.zybuluo.com/hanbingtao/note/433855</a>]</p>
+            <p>文章原<a href="https://www.zybuluo.com/hanbingtao/note/433855" target="_blank" rel="external">链接</a></p>
 <h1 id="深度学习是啥"><a href="#深度学习是啥" class="headerlink" title="深度学习是啥"></a>深度学习是啥</h1><p>在人工智能领域，有一个方法叫机器学习。在机器学习这个方法里，有一类算法叫神经网络。神经网络如下图所示：</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/2256672-c6f640c11a06ac2e.png" alt="神经网络"></p>
 <p>上图中每个圆圈都是一个神经元，每条线表示神经元之间的连接。我们可以看到，上面的神经元被分成了多层，层与层之间的神经元有连接，而层内之间的神经元没有连接。最左边的层叫做<code>输入层</code>，这层负责接收输入数据；最右边的层叫<code>输出层</code>，我们可以从这层获取神经网络输出数据。输入层和输出层之间的层叫做<code>隐藏层</code>。</p>
@@ -869,6 +869,28 @@
   
 
   
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
 
   
 
